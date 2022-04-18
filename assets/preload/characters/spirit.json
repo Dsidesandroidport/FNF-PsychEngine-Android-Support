@@ -6,43 +6,43 @@
 				-280
 			],
 			"loop": false,
-			"anim": "idle",
 			"fps": 24,
-			"name": "idle spirit_",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "SpiritIdle"
 		},
 		{
 			"offsets": [
 				-200,
-				-280
+				-253
 			],
 			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "left_",
-			"indices": []
+			"indices": [],
+			"name": "SpiritLeft"
 		},
 		{
 			"offsets": [
-				170,
-				110
+				-203,
+				-265
 			],
 			"loop": false,
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "spirit down_",
-			"indices": []
+			"indices": [],
+			"name": "SpiritDown"
 		},
 		{
 			"offsets": [
-				-220,
-				-280
+				-216,
+				-253
 			],
 			"loop": false,
-			"anim": "singRIGHT",
 			"fps": 24,
-			"name": "right_",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "SpiritRight"
 		},
 		{
 			"offsets": [
@@ -50,14 +50,14 @@
 				-240
 			],
 			"loop": false,
-			"anim": "singUP",
 			"fps": 24,
-			"name": "up_",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "SpiritUp"
 		}
 	],
 	"no_antialiasing": true,
-	"image": "characters/spirit",
+	"image": "characters/SpiritAssets",
 	"position": [
 		-150,
 		100
@@ -65,13 +65,13 @@
 	"healthicon": "spirit-pixel",
 	"flip_x": false,
 	"healthbar_colors": [
-		255,
-		60,
-		110
+		135,
+		52,
+		184
 	],
 	"camera_position": [
-		0,
-		0
+		-450,
+		-60
 	],
 	"sing_duration": 4,
 	"scale": 6
